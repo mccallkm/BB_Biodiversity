@@ -31,7 +31,7 @@ Base.prepare(db.engine, reflect=True)
 # Save references to each table
 Otu = Base.classes.otu
 Samples = Base.classes.samples
-Samples_Metadata = Base.classes.samples_metadat
+Samples_Metadata = Base.classes.samples_metadata
 
 # Beginning of Apps
 @app.route("/")
