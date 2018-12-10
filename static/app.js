@@ -3,7 +3,7 @@
 var data = document.getElementById("selDatasets");
 var sampleMetadata = document.getElementById("sample-metadata");
 var pie = document.getElementById("pie");
-var bubble = document.getElementsById("bubble");
+var bubble = document.getElementById("bubble");
 var gauge = document.getElementById("gauge");
 
 
