@@ -8,6 +8,8 @@ var $gauge = document.getElementById("gauge");
 d3.json("/names", function(error, response) {
     if (error) return console.log(error);
 
+    console.log(response);
+
     var items = response;
     for (var i = 0; i < items.length; i++) {
 
@@ -24,7 +26,7 @@ d3.json("/names", function(error, response) {
 function init() {
 
   // Initial sample metadata
-  d3.json("/metadata/940", function(error, response) {
+  d3.json("/metadata/BB_940", function(error, response) {
       if (error) return console.log(error);
       var keys = Object.keys(response);
 
